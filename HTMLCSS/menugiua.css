@@ -1,0 +1,28 @@
+ul.menungang{
+    list-style: none;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+ul.menungang li {
+    display: inline;
+}
+.menutren{
+    background-color:#2fa1b3 ;
+    height: 30px;
+    width: 100%;
+}
+ul.menungang a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    display: inline-block;
+    padding: 6px;
+    transition: 0.4s;
+}
+ul.menungang a:hover{
+    background-color: rgb(8, 121, 109);
+}

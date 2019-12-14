@@ -1,0 +1,34 @@
+.small_news_block{
+    display: flex;
+    width: 300px;
+    justify-content:space-between ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.small_news_block  .left{
+    width: 60px;
+}
+.small_news_block  .right{
+width: 220px;
+}
+img{
+    width: 100%;
+}
+.small_news_block .right a.a1{
+text-decoration: none;
+display: block;
+color: rgb(26, 24, 24);
+}
+.small_news_block .right span.minutes{
+    color: gray;
+    font-size: 11px;
+}
+.small_news_block .right a.a2{
+    text-decoration: none;
+    color: gray;
+    font-size: 11px;
+}
+.small_news_block .right a.a3{
+    text-decoration: none;
+    color: gray;
+    font-size: 11px;
+}

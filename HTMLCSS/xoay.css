@@ -1,0 +1,24 @@
+.bo{
+    width: 600px;
+    height: 600px;
+    position: relative;
+}
+.bo .xoay{
+width: 450px;
+height: 450px;
+position: absolute;
+left: 75px;
+top: 75px;
+transition: 50s;
+}
+.bo:hover .xoay{
+transform: rotate(3600deg);
+    }
+.bo .anh9{
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    left: 75px;
+    top: 75px;
+    transition: 0.4s;
+}
