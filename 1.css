@@ -1,4 +1,58 @@
-*{margin: 0; padding: 0;} 
+*{margin: 0; padding: 0;}
+
+a.nuthire.btn.btn-primary {
+    width: 180px;
+    background: black;
+    border: none;
+    border-radius: 0;
+}
+
+.tt h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.tt p {
+    color: black;
+    font-size: 14px;
+    line-height: 20px;
+    width: 46%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.tt {
+    z-index: 2;
+    position: relative;
+    padding-top: 20%;
+}
+
+.tt img {
+    border-radius: 50%;
+    margin-bottom: 50px;
+    width: 150px;
+}
+
+.khoitt1 {
+    width: 100%;
+    height: 100%;
+    background-color: #ef5858;
+    position: relative;
+}
+
+.khoitt1:before {content: "";
+    position: absolute;
+    left: 0;top: 0;
+    width: 50%;
+    height: 100%;
+    background-color: #f17070;}
+
+body,html {
+    width: 100%;
+    height: 100%;
+} 
 ul li{
     list-style: none;
 }
@@ -24,6 +78,11 @@ li.nav-item {
 }
 @media (max-width:576px){
     *{}
+
+.tt img {
+    margin-top: -60px;
+    width: 150px;
+}
 
 li.nav-item {
     float: none!important;
