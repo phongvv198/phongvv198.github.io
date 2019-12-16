@@ -1,5 +1,33 @@
 *{margin: 0; padding: 0;}
 
+a.navbar-brand img {
+    width: 100px;
+    height: 85px;
+    padding-left: 3px;
+}
+
+ul.navbar-nav {padding-top: 60px;}
+
+.xuong:after {content: "";position: absolute;width: 3px;height: 8px;background: white;left: 50%;bottom: 60%;margin-left: -1px;}
+
+.xuong:hover {
+    bottom: 2%;
+}
+
+.xuong {
+    width: 35px;
+    height: 65px;
+    border: white solid 1px;
+    position: absolute;
+    left: 50%;
+    border-radius: 30px;
+    bottom: 1%;
+    margin-left: -18px;
+    z-index: 2;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
 .khoittnho {
     margin-bottom: 55px;
 }
@@ -79,7 +107,7 @@ a.nuthire.btn.btn-primary {
 .tt {
     z-index: 2;
     position: relative;
-    padding-top: 10%;
+    padding-top: 15%;
 }
 
 .tt img {
@@ -113,7 +141,8 @@ ul li{
     color:white;
 }
 .bg-primary {
-    background-color: #ada6aa!important;
+    background-color: #c3bec1!important;
+    height: 15%;
 }
 nav.navbar.navbar-expand-sm.navbar-dark.bg-primary {
     margin: 0;
@@ -129,8 +158,19 @@ li.nav-item {
     padding: 0;
     margin: 0 17px;
 }
-@media (max-width:576px){
+@media (max-width: 576px){
     *{}
+
+nav.navbar {
+    height: 20%;
+    position: relative;
+}
+
+ul.navbar-nav {}
+
+ul.navbar-nav {
+    text-align: center;
+}
 
 h2.tieudecap2 {
     margin-top: 50px;
