@@ -84,7 +84,7 @@ a.nuthire.btn.btn-primary {
 
 .tt img {
     border-radius: 50%;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     width: 150px;
 }
 
@@ -132,8 +132,17 @@ li.nav-item {
 @media (max-width:576px){
     *{}
 
+h2.tieudecap2 {
+    margin-top: 50px;
+}
+
+.tieudeto {
+    margin-top: 70px;
+    margin-bottom: 0px;
+}
+
 .tt img {
-    margin-top: -60px;
+    margin-top: -45px;
     width: 150px;
 }
 
@@ -147,8 +156,6 @@ ul.navbar-nav.mr-auto.mt-2.mt-lg-0 {
     float: none;
     text-align: center;
 }
-li.nav-item {}
-
 a.nav-link {
     display: inline!important;
     line-height: 16px;
