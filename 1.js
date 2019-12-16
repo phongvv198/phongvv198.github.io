@@ -11,4 +11,10 @@
         $('body,html').animate({scrollTop:vitricuasp},700)
         return false;
     }) 
+    vitricuacmt=$('#khoicomment').offset().top;
+    console.log(vitricuasp);
+    $(".cmt").click(function(){
+        $('body,html').animate({scrollTop:vitricuacmt},700)
+        return false;
+    }) 
 })  
